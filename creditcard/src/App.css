@@ -1,24 +1,5 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: "Poppins", sans-serif;
-}
-
-body {
-  height: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background: url("https://images.pexels.com/photos/1631677/pexels-photo-1631677.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260");
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-  /* background-color: black; */
-}
 .table__Container {
-  margin-top: 2%;
-  margin-bottom: 5%;
+  margin: 10%;
 }
 tr {
   display: flex;
@@ -30,7 +11,7 @@ tr {
     rgba(255, 255, 255, 0.2),
     rgba(255, 255, 255, 0.05)
   );
-  padding: 10px 0px;
+  padding: 10px 5px;
   margin-top: 5px;
   border-radius: 1rem;
   color: #fff;

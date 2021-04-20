@@ -75,7 +75,7 @@ function App() {
     setData(newData);
   };
   return (
-    <div>
+    <div className="App">
       <Card handleChange={handleChange} handleSubmit={handleSubmit} />
       <div className="table__Container">
         {data.map((item, id) => (
