@@ -1,0 +1,105 @@
+.card {
+  margin-top: 7%;
+  background: linear-gradient(
+    to bottom right,
+    rgba(255, 255, 255, 0.2),
+    rgba(255, 255, 255, 0.05)
+  );
+  box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.5), -1px -1px 2px #aaa,
+    1px 1px 2px #555;
+  padding: 1.5rem;
+  border-radius: 1rem;
+}
+
+.card__row {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 2rem;
+}
+
+.card__title {
+  font-weight: 600;
+  font-size: 2.5rem;
+  color: #1d005f;
+  margin: 1rem 0 1.5rem;
+  text-shadow: 0 2px 2px rgba(0, 0, 0, 0.3);
+}
+
+.card__col {
+  padding-right: 2rem;
+}
+
+.card__input {
+  background: none;
+  border: none;
+  border-bottom: dashed 0.2rem rgba(255, 255, 255, 0.15);
+  font-size: 1.2rem;
+  color: #fff;
+  text-shadow: 0 2px 2px rgba(0, 0, 0, 0.3);
+  margin-top: 1%;
+}
+#seperater {
+  font-size: 1.5rem;
+  color: #fff;
+}
+.card__input--large {
+  text-align: center;
+  letter-spacing: 0.5rem;
+  width: 110px;
+  font-size: 2rem;
+}
+
+#cardExpiry {
+  margin-top: 5%;
+  width: 70px;
+}
+#cardCcv {
+  margin-top: 5%;
+  width: 70px;
+}
+.card__input::placeholder {
+  color: rgba(255, 255, 255, 0.5);
+  text-shadow: none;
+}
+
+.card__input:focus {
+  outline: none;
+  border-color: rgba(255, 255, 255, 0.6);
+}
+
+.card__label {
+  display: block;
+  color: #fff;
+  text-shadow: 0 2px 2px rgba(0, 0, 0, 0.4);
+  font-weight: 400;
+}
+
+.card__chip {
+  align-self: flex-end;
+}
+
+.card__chip img {
+  width: 3rem;
+}
+
+.card__brand {
+  font-size: 3rem;
+  color: #fff;
+  min-width: 100px;
+  min-height: 75px;
+  text-align: right;
+  text-shadow: 0 2px 2px rgba(0, 0, 0, 0.4);
+}
+.card__col button {
+  padding: 10px 20px;
+  display: block;
+  font-size: 1rem;
+  border: none;
+  text-shadow: 0 2px 2px rgba(0, 0, 0, 0.4);
+  font-weight: 400;
+  margin-left: -10px;
+  border-radius: 20px;
+  letter-spacing: 0.1rem;
+  background-color: white;
+  color: black;
+}
